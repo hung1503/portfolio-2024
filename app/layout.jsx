@@ -1,4 +1,4 @@
-import {JetBrains_Mono} from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 //components
@@ -9,8 +9,8 @@ import StairTransition from "@/components/StairTransition";
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   weights: ["100", "300", "400", "500", "700", "800", "200", "600"],
-  varible: "--font-jetbrainsMono",
-})
+  variable: "--font-jetbrainsMono",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -23,9 +23,7 @@ export default function RootLayout({ children }) {
       <body className={jetbrainsMono.variable}>
         <Header />
         <StairTransition />
-        <PageTransition>
-          {children}
-        </PageTransition>
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
