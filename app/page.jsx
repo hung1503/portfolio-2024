@@ -21,7 +21,7 @@ const Home = () => {
               various programming languages and technologies{" "}
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/assets/resume/HungNguyen_CV.pdf" download>
+              <a href="/assets/resume/Hung_Nguyen_Resume.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"
