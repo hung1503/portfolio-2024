@@ -66,6 +66,21 @@ const projects = [
     image: "/assets/work/dailytrack.png",
     github: "https://github.com/hung1503/dailytrack",
   },
+  {
+    num: "04",
+    category: "Fullstack",
+    title: "Reactivities",
+    description:
+      "The application is built with React, TypeScript, C#, ASP.NET Core. The social media is for listing users' activities, Users can register the activity and also posting their activity event for others to join.",
+    stack: [
+      { name: "TypeScript" },
+      { name: ".NET Core" },
+      { name: "React" },
+      { name: "C#" },
+    ],
+    image: "/assets/work/reactivities-activity.png",
+    github: "https://github.com/hung1503/Reactivity",
+  },
 ];
 
 const Work = () => {
