@@ -34,6 +34,7 @@ const projects = [
     ],
     image: "/assets/work/netflix-clone.png",
     github: "https://github.com/hung1503/netflix-clone",
+    site: "https://netflix-clone-1b988.firebaseapp.com/",
   },
   {
     num: "02",
@@ -50,6 +51,7 @@ const projects = [
     ],
     image: "/assets/work/ecommerce.png",
     github: "https://github.com/hung1503/ecommerce-website",
+    site: "https://effervescent-sherbet-fc84e3.netlify.app/",
   },
   {
     num: "03",
@@ -65,6 +67,7 @@ const projects = [
     ],
     image: "/assets/work/dailytrack.png",
     github: "https://github.com/hung1503/dailytrack",
+    site: "https://github.com/hung1503/dailytrack",
   },
   {
     num: "04",
@@ -80,6 +83,7 @@ const projects = [
     ],
     image: "/assets/work/reactivities-activity.png",
     github: "https://github.com/hung1503/Reactivity",
+    site: "https://react-fullstack-project.azurewebsites.net/",
   },
 ];
 
@@ -137,20 +141,19 @@ const Work = () => {
                 </Link>
 
                 {/* Live project button */}
-                {/* 
-                <Link href={project.github}>
+
+                <Link href={project.site}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
                         <BsGithub className="text-white text-3xl group-hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>
-                        <span>View code base</span>
+                        <span>View project</span>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
-                  */}
               </div>
             </div>
           </div>
