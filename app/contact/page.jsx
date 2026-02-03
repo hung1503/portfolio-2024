@@ -15,6 +15,11 @@ const info = [
     description: "(+358) 465 903 165",
   },
   {
+    icon: <FaPhoneAlt />,
+    title: "Phone",
+    description: "(+358) 465 903 165",
+  },
+  {
     icon: <FaEnvelope />,
     title: "Email",
     description: "hungnguyen150300@gmail.com",
@@ -22,7 +27,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "02620 Espoo, Finland",
+    description: "02230 Espoo, Finland",
   },
 ];
 
