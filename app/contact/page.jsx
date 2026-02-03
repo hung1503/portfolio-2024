@@ -11,13 +11,13 @@ import { motion } from "framer-motion";
 const info = [
   {
     icon: <FaPhoneAlt />,
-    title: "Phone",
+    title: "Phone 1",
     description: "(+358) 465 903 165",
   },
   {
     icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+358) 465 903 165",
+    title: "Phone 2",
+    description: "(+358) 458 616 806",
   },
   {
     icon: <FaEnvelope />,
