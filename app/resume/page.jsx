@@ -8,6 +8,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
+  FaGolang,
 } from "react-icons/fa";
 import { SiCsharp, SiDotnet, SiAzuredevops } from "react-icons/si";
 
@@ -52,7 +53,7 @@ const about = {
     },
     {
       fieldName: "Address",
-      fieldValue: "02620 Espoo, Finland",
+      fieldValue: "02230 Espoo, Finland",
     },
   ],
 };
@@ -145,6 +146,10 @@ const skills = {
     {
       icon: <FaGithub />,
       name: "GitHub",
+    },
+    {
+      icon: <FaGolang />,
+      name: "Golang",
     },
   ],
 };
