@@ -8,7 +8,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
-  FaGolang,
+  // FaGolang,
 } from "react-icons/fa";
 import { SiCsharp, SiDotnet, SiAzuredevops } from "react-icons/si";
 
@@ -147,10 +147,10 @@ const skills = {
       icon: <FaGithub />,
       name: "GitHub",
     },
-    {
-      icon: <FaGolang />,
-      name: "Golang",
-    },
+    // {
+    //   icon: <FaGolang />,
+    //   name: "Golang",
+    // },
   ],
 };
 
