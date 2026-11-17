@@ -8,9 +8,12 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
-  // FaGolang,
 } from "react-icons/fa";
-import { SiCsharp, SiDotnet, SiAzuredevops } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
+import { TbBrandCSharp } from "react-icons/tb";
+import { VscAzure } from "react-icons/vsc";
+import { AiOutlineDotNet } from "react-icons/ai";
+// import { SiCsharp, SiDotnet, SiAzuredevops } from "react-icons/si";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -132,25 +135,25 @@ const skills = {
       name: "Node.js",
     },
     {
-      icon: <SiCsharp />,
-      name: "C#",
-    },
-    {
-      icon: <SiDotnet />,
-      name: ".NET",
-    },
-    {
-      icon: <SiAzuredevops />,
-      name: "Azure DevOps",
-    },
-    {
       icon: <FaGithub />,
       name: "GitHub",
     },
-    // {
-    //   icon: <FaGolang />,
-    //   name: "Golang",
-    // },
+    {
+      icon: <TbBrandCSharp />,
+      name: "C#",
+    },
+    {
+      icon: <AiOutlineDotNet />,
+      name: ".NET",
+    },
+    {
+      icon: <VscAzure />,
+      name: "Azure DevOps",
+    },
+    {
+      icon: <FaGolang />,
+      name: "Golang",
+    },
   ],
 };
 
